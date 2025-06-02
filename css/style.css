@@ -1,0 +1,532 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+
+.banner{
+    background-image: url("../imagenes/fondo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.content-horses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.horse1{
+    max-width:100%;
+    width: 150px;
+}
+
+.baby{
+    max-width:100%;
+    width: 200px;
+}
+
+
+.horse2{
+    max-width:100%;
+    width: 150px;
+}
+
+.letters h1{
+    font-family: "Bodoni Moda SC", serif;
+    color: #ffb800;
+    font-weight: 700;
+}
+
+.olimpo h2{
+    font-family: "Bodoni Moda SC", serif;
+    color:#38b6ff;
+    font-weight: 700;
+}
+
+.olimpo{
+    max-width: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-kal img{
+    max-width: 100%;
+    width: 200px;
+    margin-top: -10px;
+}
+
+.img-babyshower img{
+    max-width: 100%;
+    width: 300px;
+    margin-top: -20px;
+}
+
+.banner-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* LLEGADA */
+#llegada{
+     background-image: url("../imagenes/fondo3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100%;
+    height: 700px;
+     position: relative;
+    z-index: -1;
+    padding: 50px 0;
+}
+.content-llegada{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ray{
+    max-width: 100%;
+    width: 110px;
+}
+
+.title-llegada{
+     font-family: "Bodoni Moda SC", serif;
+    color:#38b6ff;
+    font-size: 30px;
+}
+
+.title-llegada2{
+     font-family: "Bodoni Moda SC", serif;
+    color:#38b6ff;
+    margin-top: -20px;
+    font-size: 30px;
+}
+
+.stars img{
+    max-width: 100%;
+    width: 300px;
+}
+
+.content-ultra{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.ultrasonido img{
+    max-width: 100%;
+    width: 400px;
+}
+
+.content-padres h1{
+    font-family: "Bodoni Moda SC", serif;
+    color:#38b6ff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box-papis img{
+    max-width: 100%;
+    width: 150px;
+}
+
+.box-papis h1{
+    font-family: "Pacifico", cursive;
+    color:#ffb800;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.content-papis{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    margin-top: -40px;
+}
+
+
+.content-detalles{
+    background-image: url("../imagenes/fondo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100%;
+    height: 820px;
+    padding: 150px 0;
+}
+
+.box-detalles img{
+    max-width: 100%;
+    width: 500px;
+}
+
+.box-detalles-fecha img{
+    max-width: 100%;
+    width: 400px;
+
+}
+
+.box-detalles-fecha h1{
+    font-family: "Bodoni Moda SC", serif;
+    color:#38b6ff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box-detalles-fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.countdown {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background:#f0b000;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background:#38b6ff;;
+  display: inline-block;
+}
+
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.cta-button {
+    font-family: "Bodoni Moda SC", serif;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ffb800;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.stars{
+    max-width: 100%;
+    width: 300px;
+}
+
+.box-ubicacion h1{
+    font-family: "Bodoni Moda SC", serif;
+    color:#38b6ff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content-ubicacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    text-align: center;
+}
+
+.confirma-asistencia{
+    font-family: "Bodoni Moda SC", serif;
+    color:#38b6ff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.confirma-asistencia img{
+    max-width: 100%;
+    width: 80px;
+    margin-top: -30px;
+}
+
+.esperamos{
+    font-family: "Pacifico", cursive;
+    color:#ffb800;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -5px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  
+.banner{
+    max-width: 100%;
+    min-height: 100%;
+    height: 900px;
+    flex-direction: row; 
+}
+
+.video{
+    width: 300px;
+}
+
+.horse1{
+    max-width:100%;
+    width: 100px;
+}
+
+.baby{
+    max-width:100%;
+    width: 130px;
+}
+
+
+.horse2{
+    max-width:100%;
+    width: 100px;
+}
+.letters h1{
+    font-size: 20px;
+}
+
+.olimpo h2{
+    font-size: 20px;
+}
+
+.olimpo{
+ 
+    width: 80%;
+   
+}
+
+.img-kal img{
+   
+    width: 150px; 
+    margin-top: -20px;
+    
+}
+
+.img-babyshower img{
+  
+    width: 180px;
+   
+}
+
+.content-video{
+   margin-top: 40px;
+}
+
+.content-horses{
+    margin-top: -50px;
+}
+
+/* seccion2 */
+
+
+.ray{
+    width: 80px;
+}
+
+.title-llegada{
+    font-size: 20px;
+}
+
+.title-llegada2{
+    font-size: 20px;
+}
+
+.stars img{
+
+    width: 150px;
+}
+
+.ultrasonido img{
+   
+    width: 250px;
+}
+
+.content-padres h1{
+     
+    font-size: 20px;
+}
+
+.box-papis img{
+    max-width: 100%;
+    width: 100px;
+}
+
+.box-papis h1{
+    
+    font-size: 35px;
+
+}
+
+.content-llegada{
+    margin-top: -20px;
+   
+}
+
+#llegada{
+    height: 400px;
+}
+
+
+
+/* TERCERA SECCION */
+
+.box-detalles img{
+
+    width: 300px;
+     
+}
+
+.box-detalles-fecha img{
+    max-width: 100%;
+    width: 400px;
+     margin-top: -60px;
+}
+
+.box-detalles-fecha h1{  
+    font-size: 20px;
+  
+}
+
+
+.countdown {
+
+  font-size: 15px;
+}
+
+.stars{
+   
+    width: 150px;
+}
+
+.cta-button {
+     
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+
+.box-ubicacion h1{
+
+    font-size: 20px;
+}
+
+.content-ubicacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    text-align: center;
+}
+
+.confirma-asistencia{
+    font-family: "Bodoni Moda SC", serif;
+    color:#38b6ff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.confirma-asistencia img{
+  
+    width: 60px;
+    padding-bottom: 300;
+   
+}
+
+.esperamos{
+ 
+    font-size: 35px;
+
+}
+
+.content-detalles{
+    height: 500px;
+}
+
+}
+
+@media only screen and (max-width: 320px){
+    #llegada{
+        height: 340px;
+    }
+
+    .content-llegada{
+        margin-top: -50px;
+    }
+
+    .box-detalles-fecha img{
+  
+     margin-top: -90px;
+}
+
+.esperamos{
+ 
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.video{
+    width: 280px;
+}
+
+.cta-button {
+     font-size: 13px;
+     padding: 10px 50px;
+    
+}
+
+.content-detalles{
+    height: 460px;
+}
+
+}
